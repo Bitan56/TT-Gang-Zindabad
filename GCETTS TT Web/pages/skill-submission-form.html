@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TT Gang Zindabad</title>
+</head>
+<body>
+    <div class="header">
+        <div class="title">
+            <h1>Students of Textile Technology (1st Year)</h1>
+        </div>
+    </div>
+
+    <div class="notification">
+    </div>
+
+    <a href="https://ttgangzindabad.netlify.app"><button class="home-button">
+        Back to Home
+    </button></a>
+
+
+    <div class="body">
+
+<div class="form-body">
+
+    <div class="form-title">
+        <h1 id="head-title">Form for submission of skills</h1>
+    </div>
+
+    <form id="showcaseForm">
+        <h3>Skill name:</h3>
+        <input type="text" class="form-input" id="roll" placeholder="Enter your Skill Name here" required>
+        <h3>Name:</h3>
+        <input type="text" class="form-input" id="name" placeholder="Enter your Name here" required>
+        <div class="special-comment">
+            For students other than TT (if any), kindly mention your branch after writing your name in the same section
+        </div>
+        <h3>Skill Link:</h3>
+        <input type="url" class="form-input" id="link" placeholder="Enter your accessible skill link here" required>
+        <br>
+        <button type="submit" class="clickme">Submit</button>
+    </form>
+
+    <div class="form-submission-status">
+        <p id="status"></p>
+    </div>
+
+</div>
+
+<script src="form-submission-script.js"></script>
+</body>
+</html>

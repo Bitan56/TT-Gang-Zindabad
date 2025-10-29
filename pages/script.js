@@ -60,4 +60,4 @@ function drop7(){
     }else{
         ARIJITKOLEY.style.display = 'none';
     }
-
+}

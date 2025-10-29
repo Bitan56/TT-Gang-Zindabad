@@ -4,6 +4,7 @@ ayanChabri = document.getElementById("ayan-chabri")
 NabanitaSamanta = document.getElementById("Nabanita-Samanta")
 SankhasubhraChakraborty = document.getElementById("Sankha-subhra-Chakraborty")
 ShreyaPal = document.getElementById("Shreya-Pal")
+ARIJITKOLEY = document.getElementById("ARIJIT-KOLEY")
 
 function drop1(){
     if (bitanChakraborty.style.display === 'none'){
@@ -52,4 +53,11 @@ function drop6(){
         ShreyaPal.style.display = 'none';
     }
 }
+
+function drop7(){
+    if (ARIJITKOLEY.style.display === 'none'){
+        ARIJITKOLEY.style.display = 'block';
+    }else{
+        ARIJITKOLEY.style.display = 'none';
+    }
 
